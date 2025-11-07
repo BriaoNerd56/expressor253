@@ -1,8 +1,11 @@
+import dotenv from 'dotenv'
+
+dotenv.config({ path: '/custom/path/to/.env' })
 import express from 'express'
 
 const app = express()
 
-const port = 3000
+const port = process.env.PORT || 3000
 app.use(express.json())
 
 let meatData = []
