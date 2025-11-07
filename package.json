@@ -1,0 +1,20 @@
+{
+  "name": "meat-manager",
+  "version": "1.0.0",
+  "description": "simple meat identifier",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "meat",
+    "express"
+  ],
+  "author": "bmadnerd",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
